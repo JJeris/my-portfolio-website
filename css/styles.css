@@ -50,3 +50,78 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: violet;
+}
+
+a:active {
+	color: green;
+}
+
+#navigation {
+	border: 1px solid blue;
+	padding: 20px;
+	font-size: 20px;
+	display: block;
+}
+
+#navigation ul {
+	/* border: 1px solid red; */
+	display: flex;
+}
+#navigation ul li {
+	margin-left: 10px;
+}
+
+#info-div {
+	border: 1px solid blue;
+	/* margin: 20px 20px 0px 20px; */
+	width: 600px;
+	height: auto;
+	display: block;
+}
+
+#info-div h1 {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#info-div h3 {
+	font-size: 25px;
+	text-align: center;
+}
+
+#info-div p {
+	/* border: 1px solid red; */
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#info-div ul {
+	text-align: center;
+}
+
+#skill-div {
+	border: 1px solid red;
+	/* float: right; */
+	width: 600px;
+	height: auto;
+	display: block;
+}
+
+#skill-div h3 {
+	font-size: 25px;
+	text-align: center;
+}
+
+#skill-div ul {
+	text-align: center;
+}
