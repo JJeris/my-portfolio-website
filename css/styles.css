@@ -58,6 +58,7 @@ a {
 
 a:hover {
 	color: violet;
+	background-color: azure;
 }
 
 a:active {
@@ -69,22 +70,39 @@ a:active {
 	padding: 20px;
 	font-size: 20px;
 	display: block;
+
 }
 
 #navigation ul {
-	/* border: 1px solid red; */
+	border: 1px solid red;
 	display: flex;
+	/* width: 100%; */
+	/* margin: 0 auto; */
 }
+
+
 #navigation ul li {
-	margin-left: 10px;
+	/* margin-left: 10px; */
+	/* margin-right: 100px; */
+	/* display: inline-block */
+	width: 100%;
+	margin: 0 auto;
+}
+
+#animation {
+	border: 1px solid red;
+	height: 700px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 #info-div {
 	border: 1px solid blue;
 	/* margin: 20px 20px 0px 20px; */
 	width: 600px;
-	height: auto;
+	margin: 0 auto;
 	display: block;
+	margin-top: 10px;
 }
 
 #info-div h1 {
@@ -100,7 +118,7 @@ a:active {
 
 #info-div p {
 	/* border: 1px solid red; */
-	text-align: center;
+	text-align: justify;
 	padding-left: 100px;
 	padding-right: 100px;
 }
@@ -113,7 +131,7 @@ a:active {
 	border: 1px solid red;
 	/* float: right; */
 	width: 600px;
-	height: auto;
+	margin: 0 auto;
 	display: block;
 }
 
@@ -125,3 +143,7 @@ a:active {
 #skill-div ul {
 	text-align: center;
 }
+
+/* img {
+	display: inline;
+} */
