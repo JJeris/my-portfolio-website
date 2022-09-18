@@ -51,6 +51,11 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica,Arial,sans-serif;
+}
+
+
 a {
 	text-decoration: none;
 	color: black;
@@ -85,8 +90,11 @@ a:active {
 	/* margin-left: 10px; */
 	/* margin-right: 100px; */
 	/* display: inline-block */
-	width: 100%;
-	margin: 0 auto;
+	/* width: 100%; */
+	/* margin: 0 auto; */
+	text-align: center;
+	flex: 1;
+	/* padding-left: 100px; */
 }
 
 #animation {
