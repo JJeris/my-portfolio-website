@@ -51,8 +51,11 @@ table {
 	border-spacing: 0;
 }
 
-body {
+html, body {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica,Arial,sans-serif;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 
 
@@ -81,6 +84,7 @@ a:active {
 #navigation ul {
 	border: 1px solid red;
 	display: flex;
+	flex-wrap: wrap;
 	/* width: 100%; */
 	/* margin: 0 auto; */
 }
@@ -156,3 +160,21 @@ a:active {
 /* img {
 	display: inline;
 } */
+
+#footer-div {
+	border: 1px solid red;
+	/* height: 100px; */
+	
+	/* Makes the footer stick to the bottom. 
+	   Needs body and html to be:
+	   heigh:100%;
+	   display:flex;
+	   flex-direction: column; Which could start problems.
+	*/
+	margin-top: auto;
+	
+	 
+	/* Makes the footer strech */
+	/* flex: 1 1 0; */
+	
+}
